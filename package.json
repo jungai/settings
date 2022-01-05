@@ -1,0 +1,14 @@
+{
+  "name": "some-knowledge",
+  "version": "1.0.0",
+  "author": "jungai",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.20.10"
+  }
+}
