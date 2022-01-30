@@ -16,7 +16,7 @@ function getGuideSidebar() {
 export default defineConfig({
   lang: "th-TH",
   title: "Jungai Setting",
-  base: "/",
+  base: "/settings",
   themeConfig: {
     nav: [{ text: "Guide", link: "/guide", activeMatch: "^/$|^/guide/" }],
     sidebar: {
