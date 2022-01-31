@@ -1,5 +1,5 @@
 {
-  "name": "some-knowledge",
+  "name": "settings",
   "version": "1.0.0",
   "author": "jungai",
   "license": "ISC",
@@ -9,6 +9,7 @@
     "serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vitepress": "^0.21.6"
+    "vitepress": "^0.21.6",
+    "zx": "^4.3.0"
   }
 }
