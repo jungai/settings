@@ -5,9 +5,9 @@ function getGuideSidebar() {
     {
       text: "Tooling",
       children: [
+        { text: "Zsh", link: "/guide/zsh" },
         { text: "Yabai", link: "/guide/yabai" },
         { text: "Fish", link: "/guide/fish" },
-        { text: "Zsh", link: "/guide/zsh" },
       ],
     },
   ];
@@ -15,10 +15,10 @@ function getGuideSidebar() {
 
 export default defineConfig({
   lang: "th-TH",
-  title: "Jungai Setting",
+  title: "Setting",
   base: "/settings/",
   themeConfig: {
-    nav: [{ text: "Guide", link: "/guide", activeMatch: "^/$|^/guide/" }],
+    nav: [{ text: "Guide", link: "/guide/zsh" }],
     sidebar: {
       "/guide/": getGuideSidebar(),
     },
